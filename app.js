@@ -13,7 +13,7 @@ for(var i = 0; i < pronoun.length; i++)
         //add them in
         //you could have as many dimensions as you need
          for (var k = 0; k < noun.length; k++) {
-            arrayDomains.push(pronoun[i] + adj[j] + noun[k])
+            arrayDomains.push(pronoun[i] + adj[j] + noun[k] + ".com")
          }
      }
 }
